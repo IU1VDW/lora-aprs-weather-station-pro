@@ -11,16 +11,16 @@
 // DEFAULT USER SETTINGS (modificabili via Web / NVS)
 // ======================================================
 
-#define DEFAULT_CALLSIGN "IU1VDW"
+#define DEFAULT_CALLSIGN "N0CALL"
 #define DEFAULT_SSID_M 13
-#define DEFAULT_LAT 44.72540
-#define DEFAULT_LON 8.02167
-#define DEFAULT_ALTITUDE 167.0  // <--- AGGIUNTO: Altitudine di riferimento (metri)
+#define DEFAULT_LAT 44.0000
+#define DEFAULT_LON 8.0000
+#define DEFAULT_ALTITUDE 100.0  // <--- AGGIUNTO: Altitudine di riferimento (metri)
 #define DEFAULT_BEACON_ON true
 #define DEFAULT_INTERVAL_MIN 20 // invio APRS ogni 20 minuti
 
-#define DEFAULT_WIFI_SSID "Network di Andrea"
-#define DEFAULT_WIFI_PWD  "Lucia2002" // Passcode rimosso per condivisione
+#define DEFAULT_WIFI_SSID "NOME WIFI"
+#define DEFAULT_WIFI_PWD  "PASSWORD" // Passcode rimosso per condivisione
 
 // ======================================================
 // LORA TTGO T3 v1.6.1
@@ -88,5 +88,6 @@
 // ======================================================
 // WEB SERVER
 // ======================================================
+
 
 #define WEBSERVER_PORT 80
