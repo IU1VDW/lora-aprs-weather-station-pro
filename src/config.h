@@ -15,12 +15,12 @@
 #define DEFAULT_SSID_M 13
 #define DEFAULT_LAT 44.0000
 #define DEFAULT_LON 8.0000
-#define DEFAULT_ALTITUDE 100.0  // <--- AGGIUNTO: Altitudine di riferimento (metri)
+#define DEFAULT_ALTITUDE 100.0
 #define DEFAULT_BEACON_ON true
 #define DEFAULT_INTERVAL_MIN 20 // invio APRS ogni 20 minuti
 
 #define DEFAULT_WIFI_SSID "NOME WIFI"
-#define DEFAULT_WIFI_PWD  "PASSWORD" // Passcode rimosso per condivisione
+#define DEFAULT_WIFI_PWD  "PASSWORD"
 
 // ======================================================
 // LORA TTGO T3 v1.6.1
@@ -76,9 +76,9 @@
 // ======================================================
 // DISPLAY (OLED_SDA, OLED_SCL, OLED_RST defined by board variant)
 // ======================================================
-#define OLED_SDA 21    // <--- AGGIUNGI QUESTO
-#define OLED_SCL 22    // <--- AGGIUNGI QUESTO
-#define OLED_RST 4    // <--- AGGIUNGI QUESTO (spesso è il 16 o il 4)
+#define OLED_SDA 21
+#define OLED_SCL 22
+#define OLED_RST 4
 
 #define DISPLAY_I2C_ADDR 0x3C
 #define OLED_WIDTH 128
@@ -91,3 +91,4 @@
 
 
 #define WEBSERVER_PORT 80
+
